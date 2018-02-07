@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-crud-mvc",
+  "version": "1.0.0",
+  "description": "NodeJs CRUD MVC starter app.",
+  "main": "start.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "sequelize": "^4.33.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbrocklesby/NodeJS-CRUD-MVC.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MVC",
+    "CRUD"
+  ],
+  "author": "Chris Brocklesby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisbrocklesby/NodeJS-CRUD-MVC/issues"
+  },
+  "homepage": "https://github.com/chrisbrocklesby/NodeJS-CRUD-MVC#readme"
+}
