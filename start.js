@@ -1,2 +1,2 @@
-require('./app.js')
+require('./modules.js')
 require('./routes.js')

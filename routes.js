@@ -1,4 +1,4 @@
-const {express} = require('./app')
+const {express} = require('./modules')
 
 app = express()
 
