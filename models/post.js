@@ -4,12 +4,12 @@ const {database, model} = require('../modules/database')
 
 //############## User Model ###############//
 
-const User = database.define('user', {
-  firstName: { type: model.STRING },
-  lastName: { type: model.STRING }
+const Post = database.define('post', {
+  title: { type: model.STRING },
+  content: { type: model.STRING }
 })
 
-User.sync()
+Post.sync()
 
 //############## Exports ###############//
-exports.User = User
+exports.Post = Post
